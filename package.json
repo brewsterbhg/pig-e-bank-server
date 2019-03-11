@@ -1,0 +1,18 @@
+{
+  "name": "hackathon-server-side",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6"
+  }
+}

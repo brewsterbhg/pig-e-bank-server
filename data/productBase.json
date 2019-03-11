@@ -1,0 +1,7 @@
+[
+  { "credit_cards": [ { "type": "commuter", "credit_limit": "50000.00", "interest_rate": "19.9%", "customer_id": "1" },
+                      { "type": "student", "credit_limit": "2000.00", "interest_rate": "20.0%", "customer_id": "1" },
+                      { "type": "frequent_flyer", "credit_limit": "200000.00", "interest_rate": "22.2%", "customer_id": "1" }
+                    ],
+    "promotions": ["SAVE_ON_GAS", "CREDIT_LINE", "SPECIAL_INTEREST_RATES"]}
+]

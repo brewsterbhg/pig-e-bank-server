@@ -117,9 +117,6 @@ const generateSchema = knex => {
         resolve();
       })
       .catch(err => {
-        console.log("===========================");
-        console.log("I DIEEEEDDDD");
-        console.log(err);
         reject(err);
       });
   });

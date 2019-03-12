@@ -1,0 +1,30 @@
+[
+  {
+    "first_name": "Keith",
+    "last_name": "Brewster",
+    "email_address": "kbrewster@tribalscale.com",
+    "address": "123 Fake Street",
+    "customer_id": 1
+  },
+  {
+    "first_name": "Sandes",
+    "last_name": "De Silva",
+    "email_address": "ssilva@tribalscale.com",
+    "address": "123 Fake Street",
+    "customer_id": 2
+  },
+  {
+    "first_name": "Rahul",
+    "last_name": "Verma",
+    "email_address": "rverma@tribalscale.com",
+    "address": "123 Fake Street",
+    "customer_id": 3
+  },
+  {
+    "first_name": "Pratik",
+    "last_name": "Bidkar",
+    "email_address": "pbidkar@tribalscale.com",
+    "address": "123 Fake Street",
+    "customer_id": 4
+  }
+]

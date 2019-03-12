@@ -1,6 +1,6 @@
 [
-  { "first_name": "Keith", "last_name": "Brewster" },
-  { "first_name": "Sandes", "last_name": "De Silva" },
-  { "first_name": "Rahul", "last_name": "Verma" },
-  { "first_name": "Pratik", "last_name": "Bidkar" }
+  { "is_active": true },
+  { "is_active": true },
+  { "is_active": true },
+  { "is_active": true }
 ]

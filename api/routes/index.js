@@ -1,4 +1,4 @@
-const knex = require('../../db')
+const knex = require('../../db/knex')
 
 const customers = require('./customers')(knex)
 const creditCardTypes = require('./credit-card-types')(knex)

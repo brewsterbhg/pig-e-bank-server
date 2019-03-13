@@ -8,11 +8,8 @@ const app = express()
 app.use(compression())
 app.use('/v1', routes)
 
-const server = app.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`)
 })
 
-module.exports = {
-  app,
-  server
-}
+module.exports = app

@@ -1,13 +1,10 @@
-const generateSchema = require('./schema')
-
 const knex = require('knex')({
   client: 'sqlite3',
   connection: {
-    filename: ':memory:'
+    // filename: 'file:memDb1?mode=memory&cache=shared'
+    // filename: ':memory:'
+    filename: './sqlite.db'
   },
   useNullAsDefault: true
 })
-
-generateSchema(knex)
-
 module.exports = knex

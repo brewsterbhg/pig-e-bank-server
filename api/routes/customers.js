@@ -38,7 +38,7 @@ module.exports = knex => {
       .select('customer_profiles.*')
       .where('customers.id', req.params.customerId)
       .then(results => {
-        res.status(200).json(results)
+        res.status(200).json(results[0])
       })
       .catch(err => {
         next(err)

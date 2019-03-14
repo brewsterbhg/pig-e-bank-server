@@ -48,6 +48,7 @@ const generateSchema = knex => {
       .createTable('transactions', table => {
         table.increments('id')
         table.string('type')
+        table.string('vendor')
         table.string('amount')
         table.timestamps(false, true)
         table

@@ -1,4 +1,10 @@
 [
-  { "type": "test", "amount": "2.00", "customer_id": "1" },
-  { "type": "test", "amount": "2.00", "customer_id": "2" }
+  { "type": "Restaurant", "amount": "$2.00", "customer_id": "1" },
+  { "type": "Restaurant", "amount": "$34.00", "customer_id": "1" },
+  { "type": "Travel", "amount": "$5.00", "customer_id": "1" },
+  { "type": "Uber", "amount": "$4.50", "customer_id": "1" },
+  { "type": "Drugs", "amount": "$334.04", "customer_id": "1" },
+  { "type": "Groceries", "amount": "$57.43", "customer_id": "1" },
+  { "type": "Drugs", "amount": "$420.00", "customer_id": "1" },
+  { "type": "Drugs", "amount": "$44.00", "customer_id": "2" }
 ]

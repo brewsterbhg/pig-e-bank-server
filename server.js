@@ -1,6 +1,6 @@
 const express = require('express')
 const compression = require('compression')
-const PORT = process.env.PORT_NUMBER || 3000
+const PORT = process.env.PORT || 3000
 const routes = require('./api')
 
 const app = express()

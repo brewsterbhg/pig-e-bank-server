@@ -3,7 +3,7 @@ const getCreditCard = require('./../services/recommendCcService')
 module.exports = knex => {
   router.get('/:customerId', (req, res, next) => {
     const customerId = req.params.customerId
-    console.log('recommendations')
+
     knex('transactions')
       .select('type')
       .count('type as count')

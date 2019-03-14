@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node db/createDb && node server.js",
     "precommit": "test",
     "lint": "eslint . --color",
     "p": "prettier --write './**/*.js' './*.js'",

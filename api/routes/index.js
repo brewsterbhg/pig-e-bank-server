@@ -6,6 +6,7 @@ const creditCards = require('./credit-cards')(knex)
 const rewards = require('./rewards')(knex)
 const interests = require('./interests')(knex)
 const companies = require('./companies')(knex)
+const recommendations = require('./recommendations')(knex)
 
 module.exports = [
   { path: '/customers', module: customers },
@@ -13,5 +14,6 @@ module.exports = [
   { path: '/credit-cards', module: creditCards },
   { path: '/rewards', module: rewards },
   { path: '/interests', module: interests },
-  { path: '/companies', module: companies }
+  { path: '/companies', module: companies },
+  { path: '/recommendations', module: recommendations }
 ]

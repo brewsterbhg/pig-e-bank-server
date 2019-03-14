@@ -323,3 +323,37 @@ describe('Rewards Endpoint', () => {
     })
   })
 })
+
+describe.only('Recommendations endpoint', () => {
+  beforeAll(() => {
+    const recommendations = require('../routes/recommendations')(knex)
+    app.use('/recommendations', recommendations)
+  })
+
+  describe('/recommendations/:customerId', () => {
+    it('Should respond to GET method', () => {
+      return request(app)
+        .get('/recommendations/1')
+        .set('Accept', 'application/json')
+        .expect('Content-Type', /json/)
+        .expect(200)
+        .then(response => {
+          expect(response.body.length).not.toEqual(0)
+          expect(response.body[0]).toHaveProperty('name', expect.any(String))
+          expect(response.body[0]).toHaveProperty(
+            'interest_rate',
+            expect.any(String)
+          )
+          expect(response.body[0]).toHaveProperty(
+            'annual_fee',
+            expect.any(String)
+          )
+          expect(response.body[0]).toHaveProperty('image', expect.any(String))
+          expect(response.body[0]).toHaveProperty(
+            'description',
+            expect.any(String)
+          )
+        })
+    })
+  })
+})

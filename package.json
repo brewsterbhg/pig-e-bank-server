@@ -11,7 +11,7 @@
     "p:w": "onchange './*.js' -- prettier --write {{changed}}",
     "build": "npm run p && npm run lint",
     "test": "npm run build && jest --passWithNoTests",
-    "dev": "nodemon server.js",
+    "dev": "node db/createDb && nodemon server.js",
     "test:dev": "node db/createDb && jest"
   },
   "author": "",

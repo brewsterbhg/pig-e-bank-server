@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Scotia Momentum Visa Infinitie",
+    "interest_rate": "19.99%",
+    "annual_fee": "$99",
+    "type_id": 1
+  },
+  {
+    "name": "SimplyCash American Express",
+    "interest_rate": "19.99%",
+    "annual_fee": "N/A",
+    "type_id": 1
+  },
+  {
+    "name": "Tangerine Money-Back Credit Card",
+    "interest_rate": "19.95%",
+    "annual_fee": "N/A",
+    "type_id": 1
+  },
+  {
+    "name": "Scotiabank Gold American Express",
+    "interest_rate": "19.99%",
+    "annual_fee": "$99",
+    "type_id": 2
+  },
+  {
+    "name": "BMO World Elite MasterCard",
+    "interest_rate": "19.99%",
+    "annual_fee": "$150",
+    "type_id": 2
+  },
+  {
+    "name": "Home Trust Preferred Visa",
+    "interest_rate": "19.99%",
+    "annual_fee": "N/A",
+    "type_id": 3
+  },
+  {
+    "name": "Rogers Platinum MasterCard",
+    "interest_rate": "19.99%",
+    "annual_fee": "N/A",
+    "type_id": 3
+  },
+  {
+    "name": "Scotiabank Platinum American Express",
+    "interest_rate": "19.99%",
+    "annual_fee": "$399",
+    "type_id": 4
+  },
+  {
+    "name": "BMO Cashback World Elite MasterCard",
+    "interest_rate": "19.99%",
+    "annual_fee": "$120",
+    "type_id": 4
+  },
+  {
+    "name": "Scotiabank Learn Visa Card",
+    "interest_rate": "19.99%",
+    "annual_fee": "N/A",
+    "type_id": 5
+  },
+  {
+    "name": "Scotiabank Scene Visa Card",
+    "interest_rate": "19.99%",
+    "annual_fee": "N/A",
+    "type_id": 5
+  },
+  {
+    "name": "Refresh Financial Secured Visa",
+    "interest_rate": "17.99%",
+    "annual_fee": "$12.95",
+    "type_id": 6
+  }
+]

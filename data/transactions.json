@@ -1,0 +1,4 @@
+[
+  { "type": "test", "amount": "2.00", "customer_id": "1" },
+  { "type": "test", "amount": "2.00", "customer_id": "2" }
+]

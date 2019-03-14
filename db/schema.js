@@ -50,6 +50,7 @@ const generateSchema = knex => {
         table.string('type')
         table.string('vendor')
         table.string('amount')
+        table.date('date')
         table.timestamps(false, true)
         table
           .integer('customer_id')

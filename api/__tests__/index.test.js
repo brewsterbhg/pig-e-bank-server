@@ -237,6 +237,7 @@ describe.only('Customers Endpoint', () => {
           expect(response.body[0]).toHaveProperty('type', expect.any(String))
           expect(response.body[0]).toHaveProperty('vendor', expect.any(String))
           expect(response.body[0]).toHaveProperty('amount', expect.any(String))
+          expect(response.body[0]).toHaveProperty('date', expect.any(String))
         })
     })
   })
